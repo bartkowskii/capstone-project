@@ -71,3 +71,6 @@ body {
     height: 180px;
   }
 }
+.nav-item {
+  font-size: 1rem;
+}
