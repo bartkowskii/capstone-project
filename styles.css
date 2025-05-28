@@ -1,0 +1,7 @@
+.progress {
+  width: 10%;
+}
+img {
+  object-fit: cover;
+  width: 10vw;
+}
