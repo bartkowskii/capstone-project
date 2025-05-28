@@ -1,0 +1,73 @@
+/* Layout & General */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.page-background {
+  flex-grow: 1;
+  background-color: #ffffff18;
+}
+
+/* Typography */
+html {
+  font-size: 25px;
+}
+.about {
+  font-size: 1.5rem;
+  color: #049dbf;
+}
+#p-1 {
+  font-size: 1.2rem;
+  color: #201f26;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Cards */
+.card-img-top {
+  max-height: 500px;
+  height: auto;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Footer */
+.footer-background {
+  background-color: #201f26;
+  color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#welcome {
+  background-color: #049dbf;
+}
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 180px;
+  }
+}
